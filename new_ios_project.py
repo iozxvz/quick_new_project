@@ -6,7 +6,9 @@ import os
 
 proj_name = sys.argv[1]
 
-temp_path = "/Users/fangchao/Workspace/storage/codespace/cmd_tools/TEMPLATE_IOS"
+script_path = os.path.abspath(__file__)
+script_directory = os.path.dirname(script_path)
+temp_path = f"{script_directory}/TEMPLATE_IOS"
 
 if os.path.exists(proj_name):
 	print(f"{proj_name} 文件夹已存在")
