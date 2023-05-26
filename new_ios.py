@@ -2,6 +2,7 @@
 
 import sys
 import shutil
+import subprocess
 import os
 
 proj_name = sys.argv[1]
@@ -20,6 +21,10 @@ os.rename(f"{proj_name}/TEMPLATE_IOS", f"{proj_name}/{proj_name}")
 os.rename(f"{proj_name}/TEMPLATE_IOS.xcodeproj", f"{proj_name}/{proj_name}.xcodeproj")
 
 def replace_file_content(file_path):
+	file_name = os.path.basename(file_path)
+	if file_name.startswith('.'):
+		return
+
 	# 打开文件并读取内容
 	with open(file_path, 'r', encoding='utf-8') as file:
 		content = file.read()
@@ -38,6 +43,5 @@ def replace_file_content_in(dir_path):
 			file_path = os.path.join(root, file_name)
 			replace_file_content(file_path)
 
-replace_file_content(f"{proj_name}/Podfile")
-replace_file_content_in(f"{proj_name}/{proj_name}")
-replace_file_content_in(f"{proj_name}/{proj_name}.xcodeproj")
+replace_file_content_in(proj_name)
+subprocess.call(['pod', 'install'], cwd=proj_name)

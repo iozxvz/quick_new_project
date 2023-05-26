@@ -1,0 +1,12 @@
+use_frameworks!
+install! 'cocoapods', :generate_multiple_pod_projects => true, :warn_for_unused_master_specs_repo => false
+
+platform :ios, '11.0'
+
+target 'TEMPLATE_POD_Example' do
+  pod 'TEMPLATE_POD', :path => '../'
+
+  target 'TEMPLATE_POD_Tests' do
+    inherit! :search_paths
+  end
+end
