@@ -38,6 +38,10 @@ def replace_file_content(file_path):
 
 def replace_file_content_in(dir_path):
 	for root, dirs, files in os.walk(dir_path):
+		if "xcuserdata" in dirs:
+			xcuserdata_dir = os.path.join(root, "xcuserdata")
+			# 删除目录及其内容
+			shutil.rmtree(xcuserdata_dir)
 		for file_name in files:
 			# 构建文件的完整路径
 			file_path = os.path.join(root, file_name)
