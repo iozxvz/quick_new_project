@@ -7,6 +7,7 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import <QKit/QKit.h>
 
 @interface AppDelegate ()
 
@@ -15,15 +16,22 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc] init];
+    [self appSetup];
+    [self uiSetup];
+    return YES;
+}
+
+- (void)appSetup {
+}
+
+- (void)uiSetup {
+    self.window = Q.mainWindow;
     
     ViewController *root = [[ViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:root];
     self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
-    
-    return YES;
 }
 
 @end
