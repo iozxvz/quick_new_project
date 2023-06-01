@@ -18,6 +18,7 @@
 /* Begin PBXFileReference section */
 		3CA9E5F10D61F256DB2E7F5E /* Pods-TEMPLATE_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEMPLATE_IOS.debug.xcconfig"; path = "Target Support Files/Pods-TEMPLATE_IOS/Pods-TEMPLATE_IOS.debug.xcconfig"; sourceTree = "<group>"; };
 		477ADD3BAF2829025E92EBD3 /* Pods-TEMPLATE_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TEMPLATE_IOS.release.xcconfig"; path = "Target Support Files/Pods-TEMPLATE_IOS/Pods-TEMPLATE_IOS.release.xcconfig"; sourceTree = "<group>"; };
+		6C1865A12A282F99006A19A4 /* RunMe.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = RunMe.command; sourceTree = "<group>"; };
 		6CB221182A20A87E0009BC7D /* TEMPLATE_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEMPLATE_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB2211B2A20A87E0009BC7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CB2211C2A20A87E0009BC7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		6CB2210F2A20A87E0009BC7D = {
 			isa = PBXGroup;
 			children = (
+				6C1865A12A282F99006A19A4 /* RunMe.command */,
 				6CB2211A2A20A87E0009BC7D /* TEMPLATE_IOS */,
 				6CB221192A20A87E0009BC7D /* Products */,
 				DE9CE76D41FCE21705EC247A /* Pods */,
