@@ -7,7 +7,6 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
-#import <QKit/QKit.h>
 
 @interface AppDelegate ()
 
@@ -25,7 +24,7 @@
 }
 
 - (void)uiSetup {
-    self.window = Q.mainWindow;
+    self.window = [[UIWindow alloc] init];
     
     ViewController *root = [[ViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:root];

@@ -1,0 +1,19 @@
+//
+//  AppDelegate.swift
+//  TEMPLATE_IOS_SWIFT
+//
+//  Created by 方超 on 2023/6/5.
+//
+
+import UIKit
+
+@main
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow()
+        window?.rootViewController = UINavigationController(rootViewController: ViewController())
+        return true
+    }
+}

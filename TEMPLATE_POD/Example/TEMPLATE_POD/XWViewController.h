@@ -6,8 +6,8 @@
 //  Copyright (c) 2023 fangchao. All rights reserved.
 //
 
-@import QKit;
+@import UIKit;
 
-@interface XWViewController : QViewController
+@interface XWViewController : UIViewController
 
 @end

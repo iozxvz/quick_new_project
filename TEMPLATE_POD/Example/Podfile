@@ -5,7 +5,6 @@ platform :ios, '13.0'
 
 target 'TEMPLATE_POD_Example' do
   pod 'TEMPLATE_POD', :path => '../'
-  pod 'QKit', :path => '../../QKit'
 
   target 'TEMPLATE_POD_Tests' do
     inherit! :search_paths

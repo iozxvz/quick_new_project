@@ -8,7 +8,6 @@
 
 #import "XWAppDelegate.h"
 #import "XWViewController.h"
-#import <QKit/QKit.h>
 
 @implementation XWAppDelegate
 
@@ -22,7 +21,7 @@
 }
 
 - (void)uiSetup {
-    self.window = Q.mainWindow;
+    self.window = [[UIWindow alloc] init];
     
     XWViewController *root = [[XWViewController alloc] init];
     

@@ -5,8 +5,8 @@
 //  Created by 方超 on 2023/5/26.
 //
 
-#import <QKit/QKit.h>
+#import <UIKit/UIKit.h>
 
-@interface ViewController : QViewController
+@interface ViewController : UIViewController
 
 @end

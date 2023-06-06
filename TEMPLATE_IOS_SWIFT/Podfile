@@ -2,7 +2,7 @@ platform :ios, '13.0'
 use_frameworks!
 install! 'cocoapods', :generate_multiple_pod_projects => true, :warn_for_unused_master_specs_repo => false
 
-target 'TEMPLATE_IOS' do
+target 'TEMPLATE_IOS_SWIFT' do
 end
 
 post_install do |installer|
