@@ -30,7 +30,7 @@ def replace_file_content(file_path):
 		content = file.read()
 		
 	# 替换文本
-	replaced_content = content.replace('TEMPLATE_IOS_SWIFT', proj_name)
+	replaced_content = content.replace('TEMPLATE_IOS_SWIFT', proj_name).replace('TEMPLATE-IOS-SWIFT', proj_name)
 	
 	# 将替换后的内容写回文件
 	with open(file_path, 'w', encoding='utf-8') as file:
