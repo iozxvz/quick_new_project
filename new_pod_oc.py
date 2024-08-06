@@ -53,4 +53,3 @@ def replace_file_content_in(dir_path):
 			replace_file_content(file_path)
 
 replace_file_content_in(proj_name)
-subprocess.call(['pod', 'install'], cwd=f"{proj_name}/Example")
