@@ -19,7 +19,6 @@
 		6CDBEDCB2A2F3FE2001C4EDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6CDBEDCD2A2F3FE3001C4EDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CDBEDD02A2F3FE3001C4EDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6CDBEDD72A2F40AD001C4EDC /* RunMe.command */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = RunMe.command; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +35,6 @@
 		6CDBEDBD2A2F3FE2001C4EDC = {
 			isa = PBXGroup;
 			children = (
-				6CDBEDD72A2F40AD001C4EDC /* RunMe.command */,
 				6CDBEDC82A2F3FE2001C4EDC /* TEMPLATE_IOS_SWIFTUI */,
 				6CDBEDC72A2F3FE2001C4EDC /* Products */,
 			);
