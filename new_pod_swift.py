@@ -18,9 +18,6 @@ if os.path.exists(proj_name):
 shutil.copytree(temp_path, proj_name)
 
 os.rename(f"{proj_name}/TEMPLATE_POD_SWIFT", f"{proj_name}/{proj_name}")
-os.rename(f"{proj_name}/Example/TEMPLATE_POD_SWIFT", f"{proj_name}/Example/{proj_name}")
-os.rename(f"{proj_name}/Example/TEMPLATE_POD_SWIFT.xcodeproj/xcshareddata/xcschemes/TEMPLATE_POD_SWIFT-Example.xcscheme", f"{proj_name}/Example/TEMPLATE_POD_SWIFT.xcodeproj/xcshareddata/xcschemes/{proj_name}-Example.xcscheme")
-os.rename(f"{proj_name}/Example/TEMPLATE_POD_SWIFT.xcodeproj", f"{proj_name}/Example/{proj_name}.xcodeproj")
 os.rename(f"{proj_name}/TEMPLATE_POD_SWIFT.podspec", f"{proj_name}/{proj_name}.podspec")
 
 def replace_file_content(file_path):
