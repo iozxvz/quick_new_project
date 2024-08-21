@@ -13,5 +13,5 @@ Long description of TEMPLATE_POD.
 
   s.ios.deployment_target = '13.0'
   s.source_files = 'TEMPLATE_POD/Classes/**/*'
-  s.resouces = 'TEMPLATE_POD/Assets/**/*'
+  s.resources = 'TEMPLATE_POD/Assets/**/*'
 end

@@ -13,5 +13,5 @@ Long description of TEMPLATE_POD_SWIFT.
 
   s.ios.deployment_target = '13.0'
   s.source_files = 'TEMPLATE_POD_SWIFT/Classes/**/*'
-  s.resouces = 'TEMPLATE_POD_SWIFT/Assets/**/*'
+  s.resources = 'TEMPLATE_POD_SWIFT/Assets/**/*'
 end
