@@ -7,7 +7,6 @@ Long description of TEMPLATE_POD.
                        DESC
 
   s.homepage         = 'https://github.com/fangchao/TEMPLATE_POD'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fangchao' => 'iozxvz@163.com' }
   s.source           = { :git => 'https://github.com/fangchao/TEMPLATE_POD.git', :tag => s.version.to_s }
 

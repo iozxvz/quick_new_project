@@ -7,7 +7,6 @@ Long description of TEMPLATE_POD_SWIFT.
                        DESC
 
   s.homepage         = 'https://github.com/fangchao/TEMPLATE_POD_SWIFT'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fangchao' => 'iozxvz@163.com' }
   s.source           = { :git => 'https://github.com/fangchao/TEMPLATE_POD_SWIFT.git', :tag => s.version.to_s }
 
